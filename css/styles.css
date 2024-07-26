@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3eae3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    height: 500px;
+    align-items: center;
+    column-gap: 30px;
+}
+
+
+.card img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.card__info {
+    background-color: #fff;
+    padding-right: 20px;
+}
+
+.card__info span {
+    color: #898a8f;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.card__info h3 {
+    margin-top: 28px;
+    font-weight: bold;
+    width: 190px;
+}
+
+.card__info-paragraph {
+    color: #898a8f;
+}
+
+.card__info-price {
+    color: #3D8168;
+    font-size: 28px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.card__info-discount {
+    display: inline-block;
+    text-decoration: line-through;
+    color: #898a8f;
+}
+
+.primary-botton {
+    display: flex;
+    color: #fff;
+    background-color: #3D8168;
+    width: 100%;
+    justify-content: center;
+    border: none;
+}
+
+.primary-botton:hover {
+    background-color: #173329;
+}
+
+.primary-botton--confirm {
+  width: unset;
+}
